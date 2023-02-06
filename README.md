@@ -75,3 +75,18 @@ Ahora ya podemos arrancar el servicio del WildFly con el siguiente script:
 ```console
 ./wildfly-15.0.1.Final/bin/standalone.sh
 ```
+
+## Entrar desde el navegador
+
+Accedemos a la página de Wildfly introduciendo en la barra de navegación la ip de la máquina virtual seguida por el puerto 9990.
+En mi caso el puerto ha sido reajustado a 8888.
+
+![console image](web1.png)
+
+Ahora vamos a Administration Console e introducimos el nombre webflyadmin y la contraseña que hayamos determinado previamente.
+
+![console image](web2.png)
+
+## Conclusion
+
+Con este último paso completado tendremos WildFly instalado.
